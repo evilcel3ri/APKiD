@@ -95,7 +95,7 @@ setup(
         'rules': package_files('apkid/rules/'),
     },
     include_package_data=True,
-    install_requires=install_requires,
+    #  install_requires=install_requires,
     extras_require={
         'dev': dev_requires,
         'test': test_requires,
