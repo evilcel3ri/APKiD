@@ -28,7 +28,7 @@
 from codecs import open
 from os import path, walk
 
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 import apkid
 
@@ -46,9 +46,9 @@ def package_files(directory):
     return paths
 
 
-install_requires = [
-    'yara-python-dex>=1.0.1',
-]
+#  install_requires = [
+    #  'yara-python-dex>=1.0.1',
+#  ]
 
 dev_requires = [
     'mypy',
