@@ -73,7 +73,7 @@ setup(
     version=apkid.__version__,
     description="Android Package Identifier",
     long_description=long_description,
-    url='https://github.com/rednaga/APKiD',
+    url='https://github.com/evicel3ri/APKiD',
     author=apkid.__author__,
     author_email='rednaga@protonmail.com',
     license=apkid.__license__,
