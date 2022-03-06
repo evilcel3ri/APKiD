@@ -46,9 +46,9 @@ def package_files(directory):
     return paths
 
 
-#  install_requires = [
-    #  'yara-python-dex>=1.0.1',
-#  ]
+   install_requires = [
+        "git+ssh://git@github.com/evilcel3ri/yara-python-dex"
+   ]
 
 dev_requires = [
     'mypy',
@@ -95,7 +95,7 @@ setup(
         'rules': package_files('apkid/rules/'),
     },
     include_package_data=True,
-    #  install_requires=install_requires,
+    install_requires=install_requires,
     extras_require={
         'dev': dev_requires,
         'test': test_requires,
